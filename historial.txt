@@ -1,0 +1,30 @@
+  189  cd/userh
+  190  cd users
+  191  cd chuyh
+  192  mkdir retoo
+  193  cd retoo
+  194  code .
+  195  cd c:
+  196  cd users
+  197  cd chuyh
+  198  mkdir retoTerminal
+  199  mkdir -p ./TallerClase/archivos
+  200  mkdir -p ./TallerClase/MoverImagen1Aqui
+  201  cd ./TallerClase/archivos
+  202  mkdir -p ./textoPlano
+  203  mkdir -p ./pdf
+  204  cd ./textoPlano
+  205  touch textoPlano1.txt
+  206  touch textoPlano2.txt
+  207  cd ..
+  208  cd./pdf
+  209  cd ./pdf
+  210  curl -o explicacion.pdf https://www.um.es/innova/OCW/informatica-para-universitarios/ipu_docs/la_shell/bash.pdf
+  211  cd ..
+  212  cd ..
+  213  curl -o imagen1.jpg https://concepto.de/wp-content/uploads/2022/05/meme-e1653582504105.jpg
+  214  mv imagen1.jpg ./MoverImagen1Aqui
+  215  tree ./ > estructura.txt
+  216  echo "el profe rifa y lo quiero mucho" >> estructura.txt
+  217  tree ./
+  218  history | tail -30 >> historial.txt
